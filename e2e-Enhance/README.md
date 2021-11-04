@@ -10,6 +10,7 @@ Automation Test
 
 2) open the GUI with : npx cypress open
 
+3) you can also run the test tru the tesminal by typing: npm cypress run
 
 
 
