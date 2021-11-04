@@ -1,6 +1,7 @@
 # Enhance test cypress
 
-Tests for Automation Tester
+Automation Test
+
 **Installation steps:**
 
 0) Navigate to the project directory folder
