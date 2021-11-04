@@ -1,0 +1,13 @@
+{
+        "viewportWidth": 1000,
+        "viewportHeight": 1000,
+        "pageLoadTimeout": 240000,
+        "defaultCommandTimeout": 15000,
+        "requestTimeout": 20000,
+        "chromeWebSecurity": false,
+        "supportFile": false,
+        "ignoreTestFiles" :  ["**/pageobject/*.js", "**/UsedCarsSearch/*.js"]
+      }
+      
+
+

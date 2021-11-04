@@ -1,0 +1,31 @@
+{
+  "name": "e2e-Enhance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/print-env": "^2.1.2",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^6.2.1",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "cypress-promise": "^1.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

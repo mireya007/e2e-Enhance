@@ -1,0 +1,243 @@
+[
+  {
+    "description": "    As a user, I'd like to search for an used car and verify the following attributes",
+    "keyword": "Feature",
+    "name": "Used Car Search",
+    "line": 1,
+    "id": "used-car-search",
+    "tags": [],
+    "uri": "UsedCarsSearch.feature",
+    "elements": [
+      {
+        "id": "used-car-search;search-the-second-last-car-with-attributes",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search the second last Car with attributes",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          },
+          {
+            "name": "@e2e",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am in Trademe home page",
+            "result": {
+              "status": "passed",
+              "duration": 6359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click in the search bar \"Cars, bikes & boats\"",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click in \"Used Cars\" link",
+            "result": {
+              "status": "passed",
+              "duration": 1324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the Used Cars page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the second last car",
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Number plate",
+                      "<NumberPlate>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Kilometres",
+                      "<Kilometres>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Body",
+                      "<Body>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Seats",
+                      "<Seats>"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I verify the following data exist",
+            "result": {
+              "status": "failed",
+              "duration": 15025000000,
+              "error_message": "AssertionError: Timed out retrying after 15000ms: Expected to find element: `[id=\"AttributesDisplay_attributesSection\"] > ul`, but never found it.\n    at Function.checkExistingValue (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:70:10)\n    at Context.eval (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:171:31)\n    at Context.resolveAndRunStepDefinition (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:10645:9)\n    at Context.eval (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:9987:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "used-car-search;search-the-last-car-with-attributes",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Search the last Car with attributes",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 21
+          },
+          {
+            "name": "@e2e",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am in Trademe home page",
+            "result": {
+              "status": "passed",
+              "duration": 1346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click in the search bar \"Cars, bikes & boats\"",
+            "result": {
+              "status": "passed",
+              "duration": 761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click in \"Used Cars\" link",
+            "result": {
+              "status": "passed",
+              "duration": 15054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see the Used Cars page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I select the last car",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Number plate",
+                      "<NumberPlate>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Kilometres",
+                      "<Kilometres>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Body",
+                      "<Body>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Seats",
+                      "<Seats>"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify the following data exist",
+            "result": {
+              "status": "failed",
+              "duration": 14997000000,
+              "error_message": "AssertionError: Timed out retrying after 15000ms: Expected to find element: `[id=\"AttributesDisplay_attributesSection\"] > ul`, but never found it.\n    at Function.checkExistingValue (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:70:10)\n    at Context.eval (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:171:31)\n    at Context.resolveAndRunStepDefinition (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:10645:9)\n    at Context.eval (https://www.tmsandbox.co.nz/__cypress/tests?p=cypress/integration/tests/UsedCarsSearch.feature:9987:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
