@@ -6,7 +6,7 @@ Automation Test
 
 0) Navigate to the project directory folder
 
-1) run in the terminal: npm install to install all the packages in package json.
+1) run in the terminal: npm install to install all the packages in package.json.
 
 2) open the GUI with : npx cypress open
 
